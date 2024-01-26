@@ -1,0 +1,246 @@
+:root {
+  --dark-blue: #002772;
+  --light-blue: #d6e6ff;
+  --purple: #720060;
+  --pink: #fde2ff;
+  --dark-gray: #3f3f3f;
+  --light-gray: #dcdcdc;
+  --white: #ffffff;
+  --black: #1e1e1e;
+}
+
+/* spinner */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  border-top: 4px solid #515355;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* background color */
+.bg-men {
+  background: linear-gradient(
+      to bottom,
+      var(--light-blue) 70%,
+      var(--white) 30%
+  );
+}
+
+.bg-women { 
+  background: linear-gradient(to bottom, var(--pink) 70%, var(--white) 30%);
+}
+
+.bg-unavailable {
+  background: linear-gradient(
+    to bottom,
+    var(--light-gray) 70%,
+    var(--white) 30%
+  );
+}
+
+.images {
+  top: -12%;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.images,.images>img {
+  width: 100%;
+}
+
+/* text color title*/
+.text-dark-blue {
+  color: var(--dark-blue);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.card {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.product-card {
+  background-color: var(--white);
+  margin: auto;
+  width: 80%;
+  height: 70vh;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index:1;
+}
+
+.product-unavailable {
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../face.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1550px;
+  margin: none;
+  background-color: white;
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600px;
+  margin-bottom:5px;
+  margin-top:10px;
+}
+
+.product-img {
+  flex: 30%;
+  text-align: center;
+}
+
+.product-desc {
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 100px;
+  
+}
+
+.category-rating {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: 18px;
+  color: var(--dark-gray);
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-num {
+  margin-right: 5px;
+}
+
+.desc {
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.price {
+  margin-top: 2px;
+  font-size: 28px;
+  font-weight: 600px;
+}
+
+.btn-group {
+  margin-top: 16px;
+  width: 70%;
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  all: unset;
+}
+
+.btn {
+  flex: 50%;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-buy-men {
+  background-color: var(--dark-blue);
+  border: 2px solid;
+  border-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.btn-next-men {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+.btn-buy-women {
+  background-color: var(--purple);
+  border: 2px solid;
+  border-color: var(--purple);
+  color: var(--white);
+}
+
+.btn-next-women {
+  background-color: var(--white);
+  border: 3px solid;
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+.btn-next-unavailable {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--black);
+  color: var(--black);
+  flex: none;
+  width: 500px;
+  font-size: 16px;
+  border-radius: none;
+  width: 35%;
+  height:20px;
+}
+
+.text-unavailable {
+  font-size: 19px;
+}
+
+.circle-men {
+  padding: 10px 10px;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+}
+
+.circle-women {
+  padding: 10px 10px;
+  border-radius: 50%;
+  background-color: var(--purple);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
