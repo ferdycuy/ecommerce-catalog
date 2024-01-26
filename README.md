@@ -1,6 +1,6 @@
 # ecommerce-catalog
 
-[Final Task] Core Initiative VIX Front End [rakamin](https://www.rakamin.com/)
+[Final Task] Core Initiative VIX Front End [rakamin.com](https://www.rakamin.com/)
 
 ## Langkah-langkah Penggunaan
 
