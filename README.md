@@ -5,7 +5,7 @@
 ## Langkah-langkah Penggunaan
 
 **!!!**
-Pastikan Anda memiliki Node.js dan npm diinstal di komputer Anda.
+Pastikan telah menginstall Node.js dan npm 
 
 1. **Klon Repositori:**
    ```bash
