@@ -1,7 +1,22 @@
-# Vue 3 + Vite
+# ecommerce-catalog
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Final Task from Rakamin
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Langkah-langkah Penggunaan
+
+**!!!**
+Pastikan Anda memiliki Node.js dan npm diinstal di komputer Anda.
+
+1. **Klon Repositori:**
+   ```bash
+   git clone https://github.com/username/nama-repository.git
+2. **Masuk ke Direktori proyek**
+   ```
+   cd nama-repository
+3. **Install Dependensi**
+   ```
+   npm install
+2. **Jalankan proyek secara lokal**
+   ```
+   npm run dev
