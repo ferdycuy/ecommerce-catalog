@@ -2,6 +2,8 @@
 
 [Final Task] Core Initiative VIX Front End [rakamin.com](https://www.rakamin.com/)
 
+Live Demo : [Lihat](https://ecommerce-catalog-ten.vercel.app/)
+
 ## Langkah-langkah Penggunaan
 
 **!!!**
